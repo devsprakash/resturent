@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project=1</title>
+</head>
+<body>
+    
+<h2 id="h1">JavaScript Array Sort</h2>
+<p id="para">Sort the array in ascending order:</p>
+
+
+
+<script>
+const points = [50, 89, 1, 5, 25, 65];
+document.getElementById("h1").innerHTML = points;  
+
+points.sort(function(a, b){
+    return a - b
+});
+document.getElementById("para").innerHTML = points;
+</script>
+</body>
+</html>
