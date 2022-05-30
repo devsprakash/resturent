@@ -1096,3 +1096,8 @@
     .cta-banner { left: 68%; }
   
   }
+
+  .img-container{
+
+      border-radius: 50%;
+  }

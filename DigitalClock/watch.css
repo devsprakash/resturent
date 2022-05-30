@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lato:ital,wght@0,100;1,100&family=Open+Sans:ital,wght@0,300;0,500;0,600;1,400&family=Oswald:wght@200;300;600&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,900;8..144,1000&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,500&family=Shizuru&family=Smooch+Sans:wght@100;200;400&family=Updock&display=swap');
+
+
+ *{
+     margin: 0;padding: 0;
+     box-sizing: border-box;
+ }
+
+ body{
+     background-color: rgb(26, 33, 244);
+
+ }
+
+ html{
+     scroll-behavior: smooth;
+ }
+
+ #digitalclock{
+
+    width: 30%;
+    min-width: 300px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    padding: 50px 30px;
+    font-family: "poppins" ,sans-serif;
+    border: none;
+    outline: none;
+    background-color: rgb(153, 241, 21);
+    padding: 80px 6px;
+    border-radius: 9px;
+    box-shadow: 0 15px 20px rgb(84, 223, 3);
+    color: hsl(9, 88%, 49%);
+    font-size: 50px;
+    text-align: center;
+ }
+
+ h1 {
+
+    text-align: center;
+    margin-top: 90px;
+    font-size: 45px;
+    font-weight: 600;
+    color: beige;
+ }
+  p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: beige;
+  }
